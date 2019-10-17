@@ -63,8 +63,8 @@
                 <img src="http://placehold.it/640/555">
             </div>
             <a href="#!"><img class="circle" src="http://placehold.it/640/333"></a>
-            <a href="#!"><span class="white-text name">John Doe</span></a>
-            <a href="#!"><span class="white-text email">jdandturk@gmail.com</span></a>
+            <a href="#!"><span class="white-text name">Douglas</span></a>
+            <a href="#!"><span class="white-text email">admin@ifpet.com.br</span></a>
         </div>
     </li>
     <li><a class="waves-effect" href="home.php">Home</a></li>
