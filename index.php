@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
-<body>
-    <?php require_once "menu.php"; ?>
+<?php require_once "head.php"; ?>
+<?php require_once "menu.php"; ?>
 
     <div class="row">
         <div class="col s12 m12 xl4 offset-xl4 card-panel">
@@ -47,11 +34,6 @@
             </form>
         </div>
     </div>
+<?php require_once "footer.php"; ?>
 
-    <!--JavaScript at end of body for optimized loading-->
 
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
-
-</html>
