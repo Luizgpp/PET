@@ -7,7 +7,7 @@ switch ($acao) {
         $sql = "INSERT INTO `vendas` (`idvenda`, `idcliente`, `idfuncionario`, `valortotal`, `desconto`, `datavenda`, `fpagamento`, `ativo`) VALUES (NULL, '".$_POST['clienteselect']."', '".$_POST['funcionario']."', '0', '0', '".date('Y-m-d')."', '', '1');";
         $query = $mysqli->query($sql);
         echo 'Registros afetados: ' . $query->affected_rows;
-        header('Location: ../itensvenda.php');
+        // header('Location: ../itensvenda.php');
         break;
     case 1:    
         $sql = "UPDATE produtos SET ativo='0' where idprod=".$_GET['idprod'].";";        
@@ -32,4 +32,3 @@ switch ($acao) {
         header('Location: ../itensvenda.php?id='.$_GET['idvenda']);
         break;
 }
-?>
