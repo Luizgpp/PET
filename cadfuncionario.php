@@ -56,12 +56,12 @@ if ((!isset($_SESSION['login']) == true) and (!isset($_SESSION['senha']) == true
             <h3 class="center-align">Cadastrar Funcionário</h3>
             <div class="row">
                 <div class="input-field col s12 m6">
-                    <input id="nome" type="text" class="validate" name="nome" required>
-                    <label for="nome">Nome</label>
+                    <input id="nomefun" type="text" class="validate" name="nomefun" required>
+                    <label for="nomefun">Nome</label>
                 </div>
                 <div class="input-field col s12 m6">
-                    <input id="email" type="email" class="validate" name="email" required>
-                    <label for="email">Email</label>
+                    <input id="emailfun" type="email" class="validate" name="emailfun" required>
+                    <label for="emailfun">Email</label>
                 </div>
             </div>
             <div class="row">
@@ -138,7 +138,7 @@ if ((!isset($_SESSION['login']) == true) and (!isset($_SESSION['senha']) == true
                     <label for="estadofun">Estado</label>
                 </div>
                 <div class="input-field col s12 m4">
-                    <input type="text" name="cidadetelefonefunfun" id="telefonefun" onkeydown="javascript:mascara(this, mtel)" minlength="14" maxlength="15" required="required">
+                    <input type="text" name="telefonefun" id="telefonefun" onkeydown="javascript:mascara(this, mtel)" minlength="14" maxlength="15" required="required">
                     <label for="telefonefun" class="">Telefone</label>
                 </div>
             </div>
@@ -150,8 +150,8 @@ if ((!isset($_SESSION['login']) == true) and (!isset($_SESSION['senha']) == true
                 <div class="input-field col s12 m6">
                     <select name="nivelfun" required>
                         <option value="" disabled selected>Encolha o Nível</option>
-                        <option value="ate">Atendente</option>
-                        <option value="adm">Administrador</option>
+                        <option value="2">Atendente</option>
+                        <option value="1">Administrador</option>
                     </select>
                     <label for="nivelfun">Nível</label>
                 </div>
